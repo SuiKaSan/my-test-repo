@@ -1,0 +1,33 @@
+{
+    "name": "my-test-repo",
+    "version": "1.0.0",
+    "description": "My testing repo.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SuiKaSan/my-test-repo.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/SuiKaSan/my-test-repo/issues"
+    },
+    "homepage": "https://github.com/SuiKaSan/my-test-repo#readme",
+    "devDependencies": {
+        "@commitlint/cli": "^18.4.3",
+        "@commitlint/config-conventional": "^18.4.3",
+        "@commitlint/cz-commitlint": "^18.4.3",
+        "commitizen": "^4.3.0",
+        "husky": "^8.0.3",
+        "inquirer": "^8.2.6"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/@commitlint/cz-commitlint"
+        }
+    }
+}
